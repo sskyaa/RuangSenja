@@ -81,3 +81,26 @@ body {
 #hamburger-menu {
   display: none;
 }
+
+/* media querues */
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
