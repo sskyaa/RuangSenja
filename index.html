@@ -231,7 +231,9 @@
         <div class="product-card">
           <div class="product-icons">
             <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#"><i data-feather="eye"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
           </div>
           <div class="product-image">
             <img src="img/products1.jpg" alt="Product 1" />
@@ -251,7 +253,9 @@
         <div class="product-card">
           <div class="product-icons">
             <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#"><i data-feather="eye"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
           </div>
           <div class="product-image">
             <img src="img/product2.jpg" alt="Product 1" />
@@ -327,6 +331,38 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <!-- modal box item detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products1.jpg" alt="product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Nikmati cita rasa otentik dari biji kopi berkualitas tinggi,
+              dipanen langsung dari perkebunan terbaik di Indonesia. Disangrai
+              dengan cermat untuk menghasilkan aroma yang kaya dan rasa yang
+              seimbang — sempurna untuk kopi hitam, espresso, maupun manual brew
+              favoritmu.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class=""></i>
+            </div>
+            <div class="product-price">IDR 58K <span>IDR 97K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal box item detail end -->
     <!-- feather icons -->
     <script>
       feather.replace();
