@@ -202,8 +202,11 @@ body {
 
 .hero .content {
   padding: 1.4rem 7%;
-  max-width: 60rem;
-  transform: translateY(-40px);
+  /* max-width: 80rem; */
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 150px;
 }
 
 .hero .content h1 {
