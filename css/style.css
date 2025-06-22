@@ -203,6 +203,7 @@ body {
 .hero .content {
   padding: 1.4rem 7%;
   max-width: 60rem;
+  transform: translateY(-40px);
 }
 
 .hero .content h1 {
