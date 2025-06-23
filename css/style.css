@@ -172,6 +172,29 @@ body {
 }
 
 /* hero section */
+
+/*
+  Masking vs clip-path – apa bedanya?
+
+  • mask:
+    – Menggunakan gambar (PNG/SVG/gradient) sebagai masker.
+    – Mendukung transparansi kompleks dan gradasi.
+    – Cocok untuk efek seperti fading, pattern, overlay “berlubang”.
+    – Contoh: mask-image: url(shapemask.svg);
+
+  • clip-path:
+    – Memotong elemen berdasarkan bentuk vektor (circle, ellipse, polygon).
+    – Area di luar path menjadi transparan; tidak mendukung fitur transparansi dalam.
+    – Lebih efisien untuk bentuk geometris sederhana, dan bisa dianimasi.
+    – Contoh: clip-path: polygon(…);
+
+  → Kesimpulan:
+    – Gunakan **mask** kalau butuh efek gradasi/transparansi,
+      atau masker dengan bentuk arbitrer.
+    – Gunakan **clip-path** kalau hanya memerlukan pemotongan bentuk
+      vektor sederhana, tanpa efek transparansi.
+*/
+
 .hero {
   min-height: 100vh;
   display: flex;
