@@ -186,6 +186,12 @@ body {
   font-size: 1.1rem;
 }
 
+.shopping-cart h4 {
+  font-size: 1.6rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
 /* hero section */
 /*
   Masking vs clip-path – apa bedanya?
